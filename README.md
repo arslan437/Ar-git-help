@@ -20,3 +20,51 @@ git config --global user.name "Your Name"
 git config --global user.email "youremail@example.com"
 ```
 
+## Creating local repo
+- Go to folder where you want to create git repository
+- Than open the cmd console/git console and type the following command 
+
+```
+git init 
+```
+
+- Now create the new files in the folder. 
+- Make changes
+
+## Checking the status 
+To check the status of the repository type the following command 
+
+```
+git status
+```
+
+## Staging
+Before commiting the changes we need to stage the files
+
+- Staging a single file
+
+```
+git add filename.extention
+```
+
+- Staging all the files 
+
+```
+git add .
+```
+
+or 
+
+```
+git add -all
+```
+
+## Commiting
+Now everything is ready to commit. You can run the following command to commit the changes. 
+
+```
+git commit -m "Your commit messages goes here"
+```
+
+
+
